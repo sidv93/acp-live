@@ -1,0 +1,31 @@
+.Dashboard__Wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: 100%;
+}
+
+.Dashboard__NavigationAndContent {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.Dashboard__Navigation {
+    position: relative;
+    z-index: 2;
+}
+
+.Dashboard__Content {
+    position: relative;
+    z-index: 1;
+    flex: 1 1 auto;
+    min-width: 0px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.Dashboard_Header {
+  font-size: 35px;
+  color: #000000;
+  padding: 20px 0;
+}
