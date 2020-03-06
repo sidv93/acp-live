@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { NavModule } from 'nav';
+import { NavModule } from '@parvathyg/nav';
 import { ServicesModule } from '@parvathyg/services';
 
 import { AppComponent } from './app.component';
